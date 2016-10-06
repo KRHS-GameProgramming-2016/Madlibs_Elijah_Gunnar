@@ -34,7 +34,7 @@ def getNumber(prompt):
     goodInput = False
     numbers = "0123456789."
     while not goodInput:
-        response = raw_input(
+        response = raw_input(prompt)
         goodInput = True
         for character in response:
             if character not in numbers:
