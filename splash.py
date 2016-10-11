@@ -1,16 +1,16 @@
 def splash():
     screen = ""
-    screen += "*********************************\n"
-    screen += "*                               *\n"
-    screen += "*           Welcome             *\n"
-    screen += "*             to                *\n"
-    screen += "*           Madlips             *\n"
-    screen += "*                               *\n"
-    screen += "*                               *\n"
-    screen += "*       by NAMES                *\n"
-    screen += "*                               *\n"
-    screen += "*       press enter to continue *\n"
-    screen += "*********************************\n"
+    screen += "---------------------------------\n"
+    screen += "<                               >\n"
+    screen += ">           Welcome             <\n"
+    screen += "<             to                >\n"
+    screen += ">           Madlips             <\n"
+    screen += "<                               >\n"
+    screen += ">                               <\n"
+    screen += "<       by NAMES                >\n"
+    screen += ">                               <\n"
+    screen += "<       press enter to continue >\n"
+    screen += "---------------------------------\n"
     return screen
 
 

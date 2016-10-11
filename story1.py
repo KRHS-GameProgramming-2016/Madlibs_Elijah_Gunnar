@@ -12,6 +12,7 @@ def story():
     text += ". It was like a " + temperature1
     text += " out."
     text += " I saw a " + noun1 
-    text += " walking towards " + noun2 
-    text += " . " 
+    text += " walking towards the" + noun2 
+    text += "." 
+    text += 
     return text

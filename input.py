@@ -1,6 +1,11 @@
 def isSwear(word):
     swearList = ["poop",
-                 "pee"]
+                 "pee",
+                 "cunt",
+                 "bitch",
+                 "ass",
+                 "pink sock",
+                 "]
     if word in swearList:
         return True
     else:
