@@ -5,7 +5,7 @@ def isSwear(word):
                  "bitch",
                  "ass",
                  "pink sock",
-                 "]
+                 "jew", "canadian pipeline", "]
     if word in swearList:
         return True
     else:
