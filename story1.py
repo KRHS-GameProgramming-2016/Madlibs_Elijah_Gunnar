@@ -21,7 +21,7 @@ def story():
     text += " As " + noun1 + " was beginning to " + verb1
     text += " a large " + noun3 + " suddenly appeared, " + whatever1
     text += noun1 + " approached " + noun3 + " screaming loudly "
-    text += whatever2 + " then suddenly " + noun3 + " turned into ! "
+    text += whatever2 + " then suddenly " + noun3 + " turned into a large " + 
     text += noun1 + " was very " + verb3 + " unable to cope with the feelings. "
     text += noun1 + " ran away from the " + verb3 + " shouting at the top of theri lungs "
     text += whatever1 
