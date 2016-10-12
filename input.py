@@ -1,6 +1,23 @@
 def isSwear(word):
     swearList = ["poop",
-                 "pee"]
+                 "pee",
+                 "shit",
+                 "shitting",
+                 "shitter",
+                 "piss",
+                 "pissing",
+                 "fuck",
+                 "fucking",
+                 "fucked",
+                 "fuck'd",
+                 "fucker",
+                 "fuckers",
+                 "motherfucker",
+                 "motherfuckers",
+                 "motherfucking",
+                 "fuckmothering",
+                 "screw you",
+                 ]
     if word in swearList:
         return True
     else:
@@ -17,7 +34,7 @@ def getMenuOption():
         if response.lower() in goodResponses:
             goodInput = True
         else:
-            print "Please make a valid selection!"
+            print "git gud"
     return response.lower()
 
 def getWord(prompt):
