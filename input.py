@@ -5,7 +5,7 @@ def isSwear(word):
                  "bitch",
                  "ass",
                  "pink sock",
-                 "jew",
+                 "tits",
                  "canadian pipeline",
                  "pissing",
                  "fuck",
