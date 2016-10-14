@@ -15,13 +15,13 @@ def story():
     whatever2 = getWord("Enter Random uniteligble screeching, again: ")
     
     text = ""
-    text += " Upon the hellish landscape of " + location1
-    text += noun1 + " decided that " + adjective1 + " was against their religion"
+    text += " Upon the hellish landscape of " + location1","
+    text += noun1 + " decided that " + adjective1 + " was against their religion."
     text += " walking towards the " + adjective1 + " , " + noun1 + " encountered Elijah sitting in the " + location1
     text += " As " + noun1 + " was beginning to " + verb1
     text += " a large " + noun3 + " suddenly appeared, " + whatever1
     text += noun1 + " approached " + noun3 + " screaming loudly "
-    text += whatever2 + " then suddenly " + noun3 + " turned into a large " + 
+    text += whatever2 + " then suddenly " + noun3 + " turned into a large " 
     text += noun1 + " was very " + verb3 + " unable to cope with the feelings. "
     text += noun1 + " ran away from the " + verb3 + " shouting at the top of theri lungs "
     text += whatever1 
