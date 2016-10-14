@@ -10,7 +10,7 @@ def story():
     noun4 = getWord("Enter Another Thing: ")
     noun3 = getWord("Enter A Creature: ")
     noun5 = getWord("Enter A Color: ")
-    verb1 = getWord("Enter Action: ")
+    verb1 = getWord("Enter Verb, any will do: ")
     verb2 = getWord("Enter Violent Action: ")
     verb6 = getWord('Enter Violent Action that ends in "d": ')
     verb3 = getWord("Enter Feeling: ")
@@ -24,16 +24,16 @@ def story():
     
     text = ""
     text += "Upon the hellish landscape of " + location1 + ", "
-    text += noun1 + " the destoryer of worlds, stumbled upon a small " + adjective1 + "." 
+    text += noun1 + ", the destoryer of worlds, stumbled upon a small " + adjective1 + "." 
     text += " Walking towards the " + adjective1 + ", " + noun1
     text += " was deciding on how they would deal with the " + adjective1 + ". "
-    text += '"' + verb2 + '" ' + noun1 + ' decided to themselves, "that should ' + verb1
-    text += " that little " + adjective1 + '".' + verb4 + " towards the " + adjective1 + ","
+    text += '"' + verb2 + '," ' + noun1 + ' decided to themselves, "that should ' + verb1
+    text += " that little " + adjective1 + '".' + verb4 + " towards the " + adjective1 + ", "
     text += " " + noun1 + " " + adjective2 + " " + verb5 + " the " + adjective1 + ", "
     text += noun1 + " " + verb6 + " the helpless " + adjective1 + "."
-    text += " Suddenly  " + adjective1 + " glowed a bright " + noun5 + " blinding " + noun1 + "."
-    text += "Opening their eyes, the destroyer of worlds was baffled by the transformation the small " + adjective1
-    text += " had undergone an immense transformation into a " + noun3 + "!"
+    text += " Suddenly  " + adjective1 + " glowed a bright " + noun5 + ", blinding " + noun1 + "."
+    text += " Opening their eyes, the destroyer of worlds was baffled by the transformation the small " + adjective1
+    text += " had undergone, turning them into a " + noun3 + "! "
     text += noun1 + " felt very " + verb3 + " about the sudden transformation. Unsure how to approach the situation, "
     text += noun1 + " was not prepared for the sudden onslaught by the " + noun3 + "."
     text += '"' + whatever1 + '"' + "the destroyer of worlds was unable to stop the " + noun3 + " leaving them victim to its will."
