@@ -21,7 +21,7 @@ def isSwear(word):
                  "screw you",
                  "rimjob"
                  "pussy"
-                 "f u c k",
+                 "f u c k"
                  "anal", 
                  "omg", 
                  "muff"
