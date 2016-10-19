@@ -1,5 +1,6 @@
 from input import*
 
+#Written by Elijah
 def story(): 
     noun1 = getWord("Enter Name :")
     verb1 = getWord("Enter Activity :")

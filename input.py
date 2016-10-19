@@ -19,6 +19,9 @@ def isSwear(word):
                  "motherfucking",
                  "fuckmothering",
                  "screw you",
+                 "rimjob"
+                 "pussy"
+                 "f u c k"
                  ]
     if word in swearList:
         return True
