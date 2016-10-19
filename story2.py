@@ -3,7 +3,7 @@ from input import*
 def story(): 
     noun1 = getWord("Enter Name :")
     verb1 = getWord("Enter Activity :")
-    verb2 = getWord("Enter Action :")
+    verb2 = getWord("Enter Ability :")
     noun2 = getWord("Enter Location :")
     noun3 = getWord("Enter Name :")
     
