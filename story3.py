@@ -18,6 +18,6 @@ def story():
     text += "like the bodies that had become family to them. Picking up their " + noun2 + ", " + noun1 + " began their journey "
     text += " back into the fray. Crossing multiple " + noun3 + "s, they finally saw the warscape once again. Lifting their " 
     text += noun2 + ", " + noun1 + " yelled a battle cry: " + '"' + whatever1 + '"' + " and launched themselves back into the fray."
-    text += 
+    text += "
     
     return text
