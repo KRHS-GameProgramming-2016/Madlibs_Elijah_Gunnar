@@ -53,7 +53,34 @@ def getWord(prompt):
         if isSwear(response):
             goodInput = False
             print "Don't use that kind of language with me!"
-        return response
+    return response
+
+def getEdWord(prompt):
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True
+        if isSwear(response):
+            goodInput = False
+            print "Please don't swear, think of the children... Not like that you sicko!"
+        if response[-2:] != "ed":
+            goodInput = False
+            print "Please end in ed."
+    return response
+        
+def getIngWord(prompt):
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True
+        if isSwear(response):
+            goodInput = False
+            print "Don't. Fucking. Swear."
+        if response[-3:] != "ing":
+            goodInput = False
+            print "Please end in ing."
+    return response
+
 
 def getNumber(prompt):
     goodInput = False
@@ -77,7 +104,7 @@ def getColor(prompt):
             if character not in colors:
                 goodInput = False
                 print "specified colors only"
-        return response
+    return response
         
 
 
