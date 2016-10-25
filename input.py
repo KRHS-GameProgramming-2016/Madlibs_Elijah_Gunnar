@@ -67,6 +67,17 @@ def getNumber(prompt):
                 print "Numbers only please!"
     return response
         
+def getColor(prompt):
+    goodInput = False
+    colors = " red, blue, green, yellow, orange, purple, pink, lavender,black, white"
+    while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True
+        for character in (response):
+            if character not in colors:
+                goodInput = False
+                print "specified colors only"
+        return response
         
 
 
